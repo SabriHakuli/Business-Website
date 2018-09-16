@@ -1,0 +1,102 @@
+body {
+	background-color: #eee;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	color: #222;
+}
+
+
+header {
+	background-image: url('https://images3.alphacoders.com/813/813087.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+}
+
+a {
+	color: #222;
+}
+
+.logo img {
+	width: 160px;
+	top: 10%;
+  	left: 50%;
+  	margin-top: 105px;
+  	margin-left: -100px;
+  	position: absolute;
+
+}
+
+.paragraf {
+	text-align: center;
+	padding-top: 350px;
+	font-size: 1.5em;
+}
+
+.section1 {
+	margin: 3%;
+	overflow: hidden;
+}
+
+.grid-3 {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+
+.grid-3 i:hover {
+	color: #8B0000;
+	transition: 0.3s;
+}
+
+
+.section2 {
+	background: #222;
+	color: #eee;
+	padding: 1.5em;
+	text-align: center;
+}
+
+.grid-2 {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 1%;
+}
+
+.grid-2 i {
+	transition: 0.5s;
+}
+
+.grid-2 i:hover{
+	color: #8B0000;
+	transition: 5s;
+}
+
+footer {
+	text-align: center;
+	font-size: 1em;
+	padding: 0;
+	
+}
+
+footer a:hover {
+	color: #8B0000;
+}
+
+@media (max-width: 560px) {
+	header {
+		height: 50vh;
+	}
+
+	.grid-3, .grid-2 {
+		grid-template-columns: 1fr;
+	}
+}
